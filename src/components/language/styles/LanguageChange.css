@@ -1,0 +1,23 @@
+@import "../../../../src/data/styles.css";
+
+.flag-box {
+	padding-left: 5px;
+	padding-top: 3.5px;
+	display: flex;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.flag-text {
+	padding-right: 7px;
+	padding-left: 7px;
+	font-family: "Roboto", sans-serif;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.flag {
+	height: 25px;
+	width: 25px;
+	/* width: 3vh; */
+}

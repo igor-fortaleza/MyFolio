@@ -1,0 +1,60 @@
+@import "../../../data/styles.css";
+
+.works-body {
+	flex: 1;
+	/* display: flex; */
+	justify-content: space-between;
+	width: 100%;
+}
+
+.work {
+	font-family: var(--secondary-font);
+	/* display: flex; */
+	padding-bottom: 40px;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	text-align: center;
+}
+
+.work-image {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	/*outline: 1px solid white;*/
+	margin-bottom: 15px;
+	box-shadow: 4px 5px 10px var(--shadow);
+}
+
+.work-describe {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.work-title {
+	font-size: 15px;
+	font-weight: bold;
+	/* padding-left: 20px; */
+	margin-top: 5px;
+	color: var(--secondary-color);
+}
+
+.work-subtitle {
+	/* position: absolute; */
+	font-weight: lighter;
+	font-size: 12px;
+	color: var(--tertiary-color);
+	word-spacing: normal;
+	/* 
+	padding-left: 60px; */
+}
+
+.work-duration {
+	/* position: absolute; */
+	/* width: 350px; */
+	font-size: 10px;
+	/* padding-top: 20px; */
+	/* text-align: right; */
+	color: var(--tertiary-color);
+}

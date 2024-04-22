@@ -1,0 +1,70 @@
+@import "../../../data/styles.css";
+
+.college {
+	display: flex;
+}
+
+.college a {
+	text-decoration: none;
+}
+
+.college-left-side {
+	min-width: 20%;
+	max-width: 20%;
+}
+
+.college-right-side {
+	flex-basis: 80%;
+	/* min-width: 700px; */
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	padding: 30px;
+}
+
+.college-right-side:hover {
+	background: var(--quaternary-color);
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.college-date {
+	padding-top: 30px;
+	font-size: 15px;
+	color: var(--tertiary-color);
+}
+
+.college-title {
+	color: var(--primary-color);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.college-description {
+	padding-top: 15px;
+	font-size: 12px;
+	color: var(--secondary-color);
+	font-weight: 480;
+	line-height: 25px;
+}
+
+.college-link {
+	padding-top: 10px;
+	font-size: 14px;
+	color: var(--link-color);
+	font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+	.college-left-side {
+		min-width: 10%;
+		max-width: 10%;
+	}
+
+	.college-right-side {
+		flex-basis: 90%;
+		min-width: 85%;
+		max-width: 85%;
+	}
+}

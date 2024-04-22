@@ -1,0 +1,70 @@
+@import "../../../data/styles.css";
+
+.homepage-certificate {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.homepage-certificate:hover {
+	background: var(--quaternary-color);
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.homepage-certificate-content {
+	padding: 30px;
+}
+
+.homepage-certificate-date {
+	opacity: 1;
+	color: var(--tertiary-color);
+	font-size: 12px;
+	margin-bottom: 1em;
+}
+
+.homepage-certificate-title {
+	opacity: 1;
+	color: var(--primary-color);
+	font-size: 16px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.homepage-certificate-description {
+	opacity: 1;
+	color: var(--secondary-color);
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.homepage-certificate-link {
+	opacity: 1;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.homepage-certificate-link a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+.certificate-logo {
+	width: 30px;
+	margin-top: 8%;
+	padding-right: 20px;
+	padding-left: 30px;
+	float: left;
+}
+
+.certificate-logo img {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.homepage-certificate {
+		width: 100%;
+	}
+}
