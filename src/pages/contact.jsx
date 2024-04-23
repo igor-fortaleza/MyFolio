@@ -47,7 +47,6 @@ const Contact = () => {
 
 					<div className="contact-container">
 						{ShowBody()}
-
 						<div className="socials-container">
 							<div className="contact-socials">
 								<Socials />

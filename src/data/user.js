@@ -48,7 +48,8 @@ const INFO_pt = {
 			description:
 				"Desenvolvimento de um serviço que processa imagens faciais e devolve se são a mesma pessoa. Usadas em esteiras de analise documentais dos clientes bancários.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 
@@ -57,7 +58,8 @@ const INFO_pt = {
 			description:
 				"Desenvolvimento de serviço para detecção de imagens faciais falsas que tentam burlar o sistema de monitoração do funcionários de operações especificas em HomeOffice.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 
@@ -66,7 +68,8 @@ const INFO_pt = {
 			description:
 				"Melhoria e inserção de novas features no orquestrador de robôs do cliente Santander, que faz o processamento de analise documentais com base nas regras, passando pelo tipificador e OCR, logo após executando os robôs para gerar os casos no portal do cliente com base na demanda.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 
@@ -75,7 +78,8 @@ const INFO_pt = {
 			description:
 				"Desenvolvimento de automação para Processamento, Analise e Abertura de processos jurídicos no portal do nosso cliente Vivo Telefonia.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 
@@ -84,7 +88,8 @@ const INFO_pt = {
 			description:
 				"Desenvolvimento e manutenção de RPAs em portais governamentais para verificações e coleta de dados de pessoas físicas e jurídicas.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 
@@ -93,7 +98,8 @@ const INFO_pt = {
 			description:
 				"Processamento dos dados e Cadastramento de pedidos para analises de créditos em nosso portal e do portal do cliente.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Projeto Privado",
 			link: "https://github.com",
 		},
 	],
@@ -150,7 +156,8 @@ const INFO_en = {
 			description:
 				"Development of a service that processes facial images and returns whether they are the same person. Used in document analysis conveyors of banking clients.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 
@@ -159,7 +166,8 @@ const INFO_en = {
 			description:
 				"Development of a service to detect false facial images that try to circumvent the monitoring system of specific operations employees in HomeOffice.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 
@@ -168,7 +176,8 @@ const INFO_en = {
 			description:
 				"Improvement and insertion of new features in the Santander client's robot orchestrator, which processes document analysis based on the rules, going through the classifier and OCR, and then executing the robots to generate cases on the client's portal based on demand.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 
@@ -177,7 +186,8 @@ const INFO_en = {
 			description:
 				"Development of automation for Processing, Analysis, and Opening of legal processes on the portal of our client Vivo Telefonia.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 
@@ -186,7 +196,8 @@ const INFO_en = {
 			description:
 				"Development and maintenance of RPAs on government portals for verifications and data collection of individuals and legal entities.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 
@@ -195,7 +206,8 @@ const INFO_en = {
 			description:
 				"Data processing and Registration of requests for credit analysis on our portal and the client's portal.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
-			linkText: "View Project",
+			private: true,
+			linkText: "Private Project",
 			link: "https://github.com",
 		},
 	],
