@@ -9,7 +9,7 @@ const myColleges_pt = [
 	},
 	{
 		date: "2018",
-		title: "Ensino Técnico Analise e Processamento de Sistemas",
+		title: "Técnico Análise de Sistemas e Processamento de Dados",
 		description:
 			"Certificado no OpenHack: Containers, este profissional possui habilidades fundamentais em usar o Microsoft Azure Kubernetes Service para contêinerizar e implementar aplicações na nuvem. A certificação comprova a capacidade de aplicar as principais tecnologias Azure, especialmente na preparação de clusters para produção, destacando-se em soluções modernas de nuvem.",
 		link: "https://www.credly.com/badges/d7a5dfc5-174d-4e3f-9372-4359ae7f3a6a?source=linked_in_profile",
@@ -28,7 +28,7 @@ const myColleges_en = [
 	},
 	{
 		date: "2018",
-		title: "Technical Education in Analysis and Processing of Systems",
+		title: "Technical Education in Systems Analysis and Data Processing",
 		description:
 			"Certified in OpenHack: Containers, this professional has fundamental skills in using Microsoft Azure Kubernetes Service to containerize and deploy applications in the cloud. The certification proves the ability to apply key Azure technologies, especially in preparing clusters for production, excelling in modern cloud solutions.",
 		link: "https://www.credly.com/badges/d7a5dfc5-174d-4e3f-9372-4359ae7f3a6a?source=linked_in_profile",

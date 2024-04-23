@@ -79,7 +79,7 @@ const NavBar = (props) => {
 								<Link to="/contact">{menutexts.contact}</Link>
 							</li>
 						</ul>
-						<div className="teste">
+						<div className="options-wrapper">
 							<ThemeToggle />
 							<LanguageChange />
 						</div>

@@ -1,18 +1,19 @@
 import React from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
-import classes from "./styles/ThemeIcon.css";
+
+import "./style/ThemeIcon.css";
 
 const ThemeIcon = ({ iconType }) => {
 	return (
-		<div className={classes.wrapper}>
+		<div>
 			{iconType === "light" ? (
-				<p className={classes.text}>
-					<FaSun />
-				</p>
+				<div>
+					<FaSun className="icon" />
+				</div>
 			) : (
-				<p className={classes.text}>
-					<FaMoon />
-				</p>
+				<div>
+					<FaMoon className="icon" />
+				</div>
 			)}
 		</div>
 	);

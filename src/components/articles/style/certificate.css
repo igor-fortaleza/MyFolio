@@ -15,6 +15,8 @@
 
 .certificate-logo {
 	align-self: flex-start;
+	margin-top: 70px;
+	margin-left: 20px;
 }
 
 .certificate-logo img {
@@ -25,7 +27,7 @@
 
 .certificate-right-side {
 	flex-basis: 80%;
-	min-width: 700px;
+	min-width: 680px;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;

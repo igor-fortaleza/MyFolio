@@ -28,17 +28,17 @@ const INFO_pt = {
 			"Durante minha trajetória como desenvolvedor, me empenhei em desenvolver projetos inovadores e eficazes. Meu portfólio é composto por uma variedade de trabalhos, incluindo iniciativas pessoais e profissionais. Sou um firme defensor do uso da tecnologia para solucionar desafios complexos e enriquecer vidas. Para além do desenvolvimento, estou comprometido em compartilhar conhecimento, seja através da elaboração de tutoriais detalhados, da criação de documentação clara ou da participação em discussões sobre tópicos importantes. Espero, com isso, empoderar outros desenvolvedores e contribuir para o crescimento da comunidade de tecnologia. Acredito que ao compartilhar o que sei, não apenas ajudo os outros, mas também enriqueço minha jornada de aprendizado. Cada troca de ideias é uma chance para explorar novas visões e aprimorar habilidades, e é esse ciclo de aprendizado contínuo e colaboração mútua que impulsiona a inovação e o progresso no campo do desenvolvimento de software.",
 	},
 	projects: {
-		title: "Coisas que fiz tentando colocar minha marca no universo.",
+		title: "Coisas que fiz tentando colocar minha marca no universo",
 		description:
 			"Trabalhei em vários projetos ao longo dos anos e estou orgulhoso do progresso que fiz. Muitos desses projetos são de código aberto e estão disponíveis para outros explorarem e contribuírem. Se você estiver interessado em algum dos projetos em que trabalhei, sinta-se à vontade para verificar o código e sugerir quaisquer melhorias ou aprimoramentos que possa ter em mente. Colaborar com outras pessoas é uma ótima maneira de aprender e crescer, e estou sempre aberto a novas ideias e feedback.",
 	},
 	certificates: {
-		title: "Apaixonado por ampliar o horizonte. Meu caminho de aprendizado e inovação para um futuro além dos limites.",
+		title: "Apaixonado por ampliar o horizonte. Meu caminho de aprendizado e inovação para um futuro além dos limites",
 		description:
 			"Coleção cronológica de minhas certificações que considero mais agregativo ao meu foco em inovação, programação, analises de dados e cloud.",
 	},
 	curses: {
-		title: "Meu Compromisso com Minha Constante Sede pelo Conhecimento.",
+		title: "Meu Compromisso com Minha Constante Sede pelo Conhecimento",
 		description:
 			"Coleção cronológica de minhas certificações que considero mais agregativo ao meu foco em inovação, programação, analises de dados e cloud.",
 	},

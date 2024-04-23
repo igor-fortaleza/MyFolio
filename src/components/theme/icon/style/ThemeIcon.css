@@ -1,0 +1,12 @@
+@import "../../../../data/styles.css";
+
+.icon {
+	color: var(--quaternary-color);
+}
+
+@media (max-width: 600px) {
+	.icon {
+		height: 15px;
+		width: 15px;
+	}
+}

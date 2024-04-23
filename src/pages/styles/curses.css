@@ -1,47 +1,68 @@
-.articles-logo-container {
-	display: flex;
-	justify-content: left;
-	padding-top: 25px;
-}
-
-.articles-logo {
-	display: flex;
-	position: fixed;
-	border: 1px solid white;
-	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
-}
-
-.articles-main-container {
+.courses-main-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	padding-top: 160px;
 }
 
-.articles-container {
+.courses-container {
 	display: flex;
 	flex-direction: column;
 	margin-top: 70px;
 }
 
-.articles-wrapper {
+.courses-wrapper {
 	width: 70%;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 }
 
-.articles-article {
+.certificate-items {
 	padding-top: 0px;
 	padding-left: 35px;
 	padding-bottom: 20px;
 	border-left: 2px solid var(--border);
 	/* border-left: 2px solid #f4f4f5; */
 	width: 100%;
+}
+
+.container-subtitle {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.line-subtitle {
+	position: absolute;
+	width: 100%;
+	height: 15px;
+	padding-top: 40px;
+	margin-bottom: 20px;
+	box-shadow: 1px -1px 1px -1px var(--border),
+		-1px -1px 1px -1px var(--border);
+}
+
+.space-chronological {
+	padding-bottom: 40px;
+}
+
+.subtitle-text {
+	position: absolute;
+	bottom: 5px;
+	left: 25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: var(--background-center-content-color);
+	font-family: var(--secondary-font);
+	letter-spacing: 1px;
+	color: var(--primary-color);
+	font-size: 30px;
+	font-weight: 500;
 }
 
 @media (max-width: 1024px) {
@@ -55,5 +76,15 @@
 
 	.articles-subtitle {
 		width: 100% !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.subtitle-text {
+		left: 10% !important;
+	}
+
+	.courses-wrapper {
+		width: 85%;
 	}
 }

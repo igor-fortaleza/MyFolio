@@ -38,8 +38,8 @@ const Projects = () => {
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
-						<div className="projects-logo">
+					<div className="my-logo-container">
+						<div className="my-logo">
 							<Logo width={46} />
 						</div>
 					</div>

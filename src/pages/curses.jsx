@@ -14,6 +14,19 @@ import { LanguageContext } from "../components/language/LanguageContext";
 
 import "./styles/curses.css";
 
+const Subtitles = {
+	pt: {
+		first: "SISTEMAS",
+		second: "DADOS",
+		third: "INOVAÇÃO",
+	},
+	en: {
+		first: "APPLICATIONS",
+		second: "DATA",
+		third: "INNOVATION",
+	},
+};
+
 const Curses = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -27,6 +40,8 @@ const Curses = () => {
 		language === "pt" ? curses.myCurses_pt : curses.myCurses_en;
 
 	const INFO = language === "pt" ? Info.INFO_pt : Info.INFO_en;
+
+	const subtitles = language === "pt" ? Subtitles.pt : Subtitles.en;
 
 	return (
 		<React.Fragment>
@@ -42,13 +57,13 @@ const Curses = () => {
 			<div className="page-content">
 				<NavBar active="curses" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container">
-						<div className="articles-logo">
+					<div className="my-logo-container">
+						<div className="my-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 
-					<div className="articles-main-container">
+					<div className="courses-main-container">
 						<div className="title articles-title">
 							{INFO.curses.title}
 						</div>
@@ -57,34 +72,45 @@ const Curses = () => {
 							{INFO.curses.description}
 						</div>
 
-						<div className="articles-container">
-							<div className="show-subtitle">Dados</div>
-							<div className="articles-wrapper">
-								{myCurses
-									.filter((i) => i.category === "Data")
-									.map((curse, index) => (
-										<div
-											className="articles-article"
-											key={(index + 1).toString()}
-										>
-											<Certificate
-												key={(index + 1).toString()}
-												date={curse.date}
-												title={curse.title}
-												description={curse.description}
-												logo={curse.logo}
-												link={curse.link}
-											/>
-										</div>
-									))}
+						<div className="courses-container">
+							<div className="container-subtitle">
+								<div className="line-subtitle space-chronological" />
+								<div className="subtitle-text">
+									{subtitles.first}
+								</div>
 							</div>
-							<div className="show-subtitle">Programação</div>
-							<div className="articles-wrapper">
+							<div className="courses-wrapper">
 								{myCurses
 									.filter((i) => i.category === "Programming")
 									.map((curse, index) => (
 										<div
-											className="articles-article"
+											className="certificate-items"
+											key={(index + 1).toString()}
+										>
+											<Certificate
+												key={(index + 1).toString()}
+												language={language}
+												date={curse.date}
+												title={curse.title}
+												description={curse.description}
+												logo={curse.logo}
+												link={curse.link}
+											/>
+										</div>
+									))}
+							</div>
+							<div className="container-subtitle">
+								<div className="line-subtitle space-chronological" />
+								<div className="subtitle-text">
+									{subtitles.second}
+								</div>
+							</div>
+							<div className="courses-wrapper">
+								{myCurses
+									.filter((i) => i.category === "Data")
+									.map((curse, index) => (
+										<div
+											className="certificate-items"
 											key={(index + 1).toString()}
 										>
 											<Certificate
@@ -98,13 +124,18 @@ const Curses = () => {
 										</div>
 									))}
 							</div>
-							<div className="show-subtitle">Inovação</div>
-							<div className="articles-wrapper">
+							<div className="container-subtitle">
+								<div className="line-subtitle space-chronological" />
+								<div className="subtitle-text">
+									{subtitles.third}
+								</div>
+							</div>
+							<div className="courses-wrapper">
 								{myCurses
 									.filter((i) => i.category === "Inovation")
 									.map((curse, index) => (
 										<div
-											className="articles-article"
+											className="certificate-items"
 											key={(index + 1).toString()}
 										>
 											<Certificate

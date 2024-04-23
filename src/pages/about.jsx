@@ -39,8 +39,8 @@ const About = () => {
 				<NavBar active="about" />
 
 				<div className="content-wrapper">
-					<div className="about-logo-container">
-						<div className="about-logo">
+					<div className="my-logo-container">
+						<div className="my-logo">
 							<Logo width={46} />
 						</div>
 					</div>

@@ -22,6 +22,7 @@ import { LanguageContext } from "../components/language/LanguageContext";
 import Info from "../data/user";
 import SEO from "../data/seo";
 import certificates from "../data/certificates";
+import Books from "../components/common/books";
 
 import "./styles/homepage.css";
 
@@ -210,6 +211,7 @@ const Homepage = () => {
 										>
 											<Certificate
 												key={(index + 1).toString()}
+												language={language}
 												date={certificate.date}
 												title={certificate.title}
 												description={

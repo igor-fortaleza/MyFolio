@@ -18,12 +18,12 @@ import "./styles/certificates.css";
 
 const Subtitles = {
 	pt: {
-		degrees: "Formações",
-		certifications: "Certificações",
+		first: "FORMAÇÕES",
+		second: "CERTIFICAÇÕES",
 	},
 	en: {
-		degrees: "Degrees",
-		certifications: "Certifications",
+		first: "DEGREES",
+		second: "CERTIFICATIONS",
 	},
 };
 
@@ -61,8 +61,8 @@ const Certificates = () => {
 			<div className="page-content">
 				<NavBar active="certificates" />
 				<div className="content-wrapper">
-					<div className="certificates-logo-container">
-						<div className="certificates-logo">
+					<div className="my-logo-container">
+						<div className="my-logo">
 							<Logo width={46} />
 						</div>
 					</div>
@@ -77,8 +77,11 @@ const Certificates = () => {
 						</div>
 
 						<div className="college-container">
-							<div className="show-subtitle">
-								{subtitles.degrees}
+							<div className="container-subtitle">
+								<div className="line-subtitle" />
+								<div className="subtitle-text">
+									{subtitles.first}
+								</div>
 							</div>
 							<div className="certificates-wrapper">
 								{myColleges.map((college, index) => (
@@ -88,6 +91,7 @@ const Certificates = () => {
 									>
 										<College
 											key={(index + 1).toString()}
+											language={language}
 											date={college.date}
 											title={college.title}
 											description={college.description}
@@ -99,8 +103,11 @@ const Certificates = () => {
 						</div>
 
 						<div className="college-container">
-							<div className="show-subtitle">
-								{subtitles.certifications}
+							<div className="container-subtitle">
+								<div className="line-subtitle space-chronological" />
+								<div className="subtitle-text">
+									{subtitles.second}
+								</div>
 							</div>
 							<div className="certificates-wrapper">
 								{myCertificates.map((certificate, index) => (
@@ -110,6 +117,7 @@ const Certificates = () => {
 									>
 										<Certificate
 											key={(index + 1).toString()}
+											language={language}
 											date={certificate.date}
 											title={certificate.title}
 											description={

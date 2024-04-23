@@ -6,7 +6,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./style/college.css";
 
 const college = (props) => {
-	const { date, title, description, link } = props;
+	const { language, date, title, description, link } = props;
 
 	return (
 		<React.Fragment>
@@ -20,7 +20,9 @@ const college = (props) => {
 						<div className="college-title">{title}</div>
 						<div className="college-description">{description}</div>
 						<div className="college-link">
-							Ver certificado{" "}
+							{language === "pt"
+								? "Ver certificado"
+								: "Show Certificate"}{" "}
 							<FontAwesomeIcon
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}
