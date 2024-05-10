@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://igor-fortaleza.github.io/MyFolio/static/css/main.d74e7a7a.css",
-    "main.js": "https://igor-fortaleza.github.io/MyFolio/static/js/main.09602fdc.js",
+    "main.js": "https://igor-fortaleza.github.io/MyFolio/static/js/main.b6897da0.js",
     "static/js/787.48621c64.chunk.js": "https://igor-fortaleza.github.io/MyFolio/static/js/787.48621c64.chunk.js",
     "index.html": "https://igor-fortaleza.github.io/MyFolio/index.html",
     "main.d74e7a7a.css.map": "https://igor-fortaleza.github.io/MyFolio/static/css/main.d74e7a7a.css.map",
-    "main.09602fdc.js.map": "https://igor-fortaleza.github.io/MyFolio/static/js/main.09602fdc.js.map",
+    "main.b6897da0.js.map": "https://igor-fortaleza.github.io/MyFolio/static/js/main.b6897da0.js.map",
     "787.48621c64.chunk.js.map": "https://igor-fortaleza.github.io/MyFolio/static/js/787.48621c64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d74e7a7a.css",
-    "static/js/main.09602fdc.js"
+    "static/js/main.b6897da0.js"
   ]
 }
