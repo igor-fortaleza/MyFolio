@@ -22,7 +22,6 @@ import { LanguageContext } from "../components/language/LanguageContext";
 import Info from "../data/user";
 import SEO from "../data/seo";
 import certificates from "../data/certificates";
-import Books from "../components/common/books";
 
 import "./styles/homepage.css";
 
@@ -135,7 +134,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="home.png"
+											src={`${process.env.PUBLIC_URL}/home.png`}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -218,7 +217,7 @@ const Homepage = () => {
 													certificate.description
 												}
 												link={certificate.link}
-												logo="./microsoft_logo.png"
+												logo={`${process.env.PUBLIC_URL}/microsoft_logo.png`}
 											/>
 										</div>
 									))}
