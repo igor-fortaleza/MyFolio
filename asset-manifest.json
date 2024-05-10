@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MyFolio/static/css/main.d74e7a7a.css",
-    "main.js": "/MyFolio/static/js/main.e0734be1.js",
+    "main.js": "/MyFolio/static/js/main.19f36bed.js",
     "static/js/787.48621c64.chunk.js": "/MyFolio/static/js/787.48621c64.chunk.js",
     "index.html": "/MyFolio/index.html",
     "main.d74e7a7a.css.map": "/MyFolio/static/css/main.d74e7a7a.css.map",
-    "main.e0734be1.js.map": "/MyFolio/static/js/main.e0734be1.js.map",
+    "main.19f36bed.js.map": "/MyFolio/static/js/main.19f36bed.js.map",
     "787.48621c64.chunk.js.map": "/MyFolio/static/js/787.48621c64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d74e7a7a.css",
-    "static/js/main.e0734be1.js"
+    "static/js/main.19f36bed.js"
   ]
 }
