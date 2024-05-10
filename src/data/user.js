@@ -3,7 +3,7 @@ const INFO_pt = {
 		title: "Igor Fortaleza",
 		name: "Igor A. Fortaleza",
 		email: "igorf135@gmail.com",
-		logo: "../logo.png",
+		logo: "../MyFolio/logo.png",
 	},
 
 	socials: {
@@ -110,7 +110,7 @@ const INFO_en = {
 		title: "Igor Fortaleza",
 		name: "Igor A. Fortaleza",
 		email: "igorf135@gmail.com",
-		logo: "../logo.png",
+		logo: "../MyFolio/logo.png",
 	},
 
 	socials: {
