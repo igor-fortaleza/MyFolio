@@ -36,7 +36,7 @@ const myCurses_pt = [
 		title: "Dominando o ASP.NET MVC Core",
 		description:
 			"No curso Dominando o ASP.NET MVC Core, eu aprofundei meu conhecimento em ASP.NET MVC Core, aprendendo a construir aplicações web robustas e escaláveis com o modelo MVC. O curso cobriu o desenvolvimento eficiente e seguro de aplicações, integração com tecnologias variadas, práticas avançadas e otimização de desempenho, preparando-me para criar soluções complexas e de alta qualidade.",
-		link: "https://desenvolvedor.io/certificado/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
+		link: "https://desenvolvedor.io/certificados/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
 		link_course:
@@ -113,7 +113,7 @@ const myCurses_en = [
 		title: "Mastering ASP.NET MVC Core",
 		description:
 			"In the Mastering ASP.NET MVC Core course, I deepened my knowledge in ASP.NET MVC Core, learning to build robust and scalable web applications with the MVC model. The course covered efficient and secure application development, integration with various technologies, advanced practices, and performance optimization, preparing me to create complex and high-quality solutions.",
-		link: "https://desenvolvedor.io/certificado/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
+		link: "https://desenvolvedor.io/certificados/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
 		link_course:
