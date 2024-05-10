@@ -8,7 +8,8 @@
 	--quaternary-color: #e4e4e7;
 	--nav-font-color: #1c1c1c;
 	/* --nav-font-color: #27272a; */
-	--link-color: #4682b4;
+	/* --link-color: #4682b4; */
+	--link-color: #5b8c70;
 	--scrollbar-color: #f1f1f1;
 	--scrollbar-thumb-color: #f1f1f1;
 	--navbar-color: rgb(255, 255, 255, 0.9);
@@ -33,7 +34,8 @@
 	--quaternary-color: #27272a;
 	--nav-font-color: white;
 	/* --nav-font-color: #27272a; */
-	--link-color: #4682b4;
+	/* --link-color: #4682b4; */
+	--link-color: #5b8c70;
 	--scrollbar-color: #383636;
 	--scrollbar-track-color: #565252;
 	--navbar-color: rgb(20, 20, 20, 0.9);

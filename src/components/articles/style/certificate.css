@@ -60,11 +60,24 @@
 	line-height: 25px;
 }
 
+.certificate-link-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
 .certificate-link {
-	padding-top: 10px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
 	font-size: 14px;
 	color: var(--link-color);
 	font-weight: 700;
+}
+
+.certificate-link:hover {
+	background-color: var(--shadow);
 }
 
 @media (max-width: 1024px) {

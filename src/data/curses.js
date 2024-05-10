@@ -7,6 +7,18 @@ const myCurses_pt = [
 		link: "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/71658/3384a4e117db026b8608979170018abb/certificado.png",
 		logo: "./fiap_logo.png",
 		category: "Data",
+		link_course: "none",
+	},
+	{
+		date: "Abr 2022",
+		title: "ASP.NET Core Enterprise Applications",
+		description:
+			"Neste curso, eu aprendi a desenvolver uma aplicação de e-commerce para venda de produtos, utilizando ASP.NET Core e empregando técnicas avançadas como DDD, CQRS e EventSourcing, que aprimoraram a performance, segurança e escalabilidade do sistema. Aprofundei meu conhecimento em sistemas distribuídos e utilizei Docker para rodar a aplicação de maneira eficiente em diferentes ambientes.",
+		link: "https://desenvolvedor.io/certificados/abaed187-fe72-499a-a99b-1f8cfc226131/validar",
+		logo: "./devio_logo.png",
+		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-asp-net-core-enterprise-applications",
 	},
 	{
 		date: "Set 2020",
@@ -16,6 +28,8 @@ const myCurses_pt = [
 		link: "https://desenvolvedor.io/certificados/c3970226-1d30-4333-bf15-b9206f87675a/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-rest-com-asp-net-core-webapi",
 	},
 	{
 		date: "Abr 2020",
@@ -25,6 +39,8 @@ const myCurses_pt = [
 		link: "https://desenvolvedor.io/certificado/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-dominando-o-asp-net-core-mvc",
 	},
 	{
 		date: "Dez 2019",
@@ -34,6 +50,8 @@ const myCurses_pt = [
 		link: "https://desenvolvedor.io/certificados/7ad9581d-b411-48d2-9809-dbf4ac3a12d2/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-dominando-os-testes-de-software",
 	},
 	{
 		date: "Ago 2021",
@@ -43,6 +61,7 @@ const myCurses_pt = [
 		link: "https://coursera.org/share/15273515aa8fb5c1140a6d07b1457918",
 		logo: "./devio_logo.png",
 		category: "Inovation",
+		link_course: "https://www.coursera.org/learn/blockchain-basics",
 	},
 	{
 		date: "Fev 2021",
@@ -52,6 +71,7 @@ const myCurses_pt = [
 		link: "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/10689/bef778ffe9267b3138e903bceaf0bac5/certificado.png",
 		logo: "./fiap_logo.png",
 		category: "Inovation",
+		link_course: "none",
 	},
 ];
 
@@ -64,6 +84,18 @@ const myCurses_en = [
 		link: "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/71658/3384a4e117db026b8608979170018abb/certificado.png",
 		logo: "./fiap_logo.png",
 		category: "Data",
+		link_course: "none",
+	},
+	{
+		date: "Abr 2024",
+		title: "ASP.NET Core Enterprise Applications",
+		description:
+			"In this course, I learned to develop an e-commerce application for product sales, using ASP.NET Core and employing advanced techniques such as DDD, CQRS, and EventSourcing, which enhanced the system's performance, security, and scalability. I deepened my knowledge in distributed systems and used Docker to efficiently run the application across different environments.",
+		link: "https://desenvolvedor.io/certificados/abaed187-fe72-499a-a99b-1f8cfc226131/validar",
+		logo: "./devio_logo.png",
+		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-asp-net-core-enterprise-applications",
 	},
 	{
 		date: "Set 2020",
@@ -73,6 +105,8 @@ const myCurses_en = [
 		link: "https://desenvolvedor.io/certificados/c3970226-1d30-4333-bf15-b9206f87675a/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-rest-com-asp-net-core-webapi",
 	},
 	{
 		date: "Abr 2020",
@@ -82,15 +116,19 @@ const myCurses_en = [
 		link: "https://desenvolvedor.io/certificado/b6ebd3d3-39e3-423e-9062-9e5932ea6045/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-dominando-o-asp-net-core-mvc",
 	},
 	{
-		date: "Dez 2019",
+		date: "Dec 2019",
 		title: "Mastering Software Testing",
 		description:
 			"In the Mastering Software Testing course, I learned to implement robust and scalable automated tests, covering unit, integration, and system tests. The course emphasized the importance of quality and reliability in software, teaching the use of various tools and frameworks to optimize testing. I developed essential skills to ensure security and efficiency in applications, focusing on code integrity.",
 		link: "https://desenvolvedor.io/certificados/7ad9581d-b411-48d2-9809-dbf4ac3a12d2/validar",
 		logo: "./devio_logo.png",
 		category: "Programming",
+		link_course:
+			"https://desenvolvedor.io/curso-online-dominando-os-testes-de-software",
 	},
 	{
 		date: "Ago 2021",
@@ -100,6 +138,7 @@ const myCurses_en = [
 		link: "https://coursera.org/share/15273515aa8fb5c1140a6d07b1457918",
 		logo: "./devio_logo.png",
 		category: "Inovation",
+		link_course: "https://www.coursera.org/learn/blockchain-basics",
 	},
 	{
 		date: "Fev 2021",
@@ -109,6 +148,7 @@ const myCurses_en = [
 		link: "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/10689/bef778ffe9267b3138e903bceaf0bac5/certificado.png",
 		logo: "./fiap_logo.png",
 		category: "Inovation",
+		link_course: "none",
 	},
 ];
 

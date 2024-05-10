@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 import { LanguageContext } from "../language/LanguageContext";
 
 import "./style/certificate.css";
 
 const certificate = (props) => {
-	const { language, logo, date, title, description, link } = props;
+	const { language, logo, date, title, description, link, link_course } =
+		props;
 
 	return (
 		<React.Fragment>
@@ -17,21 +18,28 @@ const certificate = (props) => {
 					<div className="certificate-date">{date}</div>
 				</div>
 
-				<Link to={link} target="_blank">
+				<Link to={link_course} target="_blank">
 					<div className="certificate-right-side">
 						<div className="certificate-title">{title}</div>
 						<div className="certificate-description">
 							{description}
 						</div>
-						<div className="certificate-link">
-							{language === "pt"
-								? "Ver certificado"
-								: "Show Certificate"}{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</div>
+						<Link to={link} target="_blank">
+							<div className="certificate-link-wrapper">
+								<div className="certificate-link">
+									<FontAwesomeIcon
+										style={{
+											fontSize: "15px",
+											marginRight: 5,
+										}}
+										icon={faCertificate}
+									/>
+									{language === "pt"
+										? "Ver certificado"
+										: "Show Certificate"}{" "}
+								</div>
+							</div>
+						</Link>
 					</div>
 				</Link>
 				<div className="certificate-logo">

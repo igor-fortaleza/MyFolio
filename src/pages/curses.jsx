@@ -95,6 +95,7 @@ const Curses = () => {
 												description={curse.description}
 												logo={curse.logo}
 												link={curse.link}
+												link_course={curse.link_course}
 											/>
 										</div>
 									))}
@@ -120,6 +121,7 @@ const Curses = () => {
 												description={curse.description}
 												logo={curse.logo}
 												link={curse.link}
+												link_course={curse.link_course}
 											/>
 										</div>
 									))}
@@ -145,6 +147,7 @@ const Curses = () => {
 												description={curse.description}
 												logo={curse.logo}
 												link={curse.link}
+												link_course={curse.link_course}
 											/>
 										</div>
 									))}

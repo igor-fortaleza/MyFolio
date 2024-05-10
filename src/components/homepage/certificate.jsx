@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/certificate.css";
 
@@ -32,13 +32,13 @@ const certificate = (props) => {
 
 					<div className="homepage-certificate-link">
 						<Link to={link} target="_blank">
+							<FontAwesomeIcon
+								style={{ fontSize: "15px", marginRight: 5 }}
+								icon={faCertificate}
+							/>
 							{language === "pt"
 								? "Ver Certificado"
 								: "Show Certificate"}{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
 						</Link>
 					</div>
 				</div>
