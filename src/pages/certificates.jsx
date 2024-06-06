@@ -94,6 +94,7 @@ const Certificates = () => {
 											language={language}
 											date={college.date}
 											title={college.title}
+											institution={college.institution}
 											description={college.description}
 											link={college.link}
 										/>
@@ -102,7 +103,7 @@ const Certificates = () => {
 							</div>
 						</div>
 
-						<div className="college-container">
+						<div className="certificates-container">
 							<div className="container-subtitle">
 								<div className="line-subtitle space-chronological" />
 								<div className="subtitle-text">

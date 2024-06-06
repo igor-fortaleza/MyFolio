@@ -18,7 +18,7 @@ const LanguageChange = () => {
 				margin: 0,
 			}}
 		>
-			{language === "pt" ? (
+			{language === "en" ? (
 				<div
 					className="flag-box"
 					style={{ backgroundColor: "rgba(0,155, 59, 0.3)" }}

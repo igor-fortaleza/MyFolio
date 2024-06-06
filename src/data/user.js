@@ -3,17 +3,18 @@ const INFO_pt = {
 		title: "Igor Fortaleza",
 		name: "Igor A. Fortaleza",
 		email: "igorf135@gmail.com",
-		logo: "../MyFolio/logo.png",
+		logo: "./logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
+		github: "https://github.com/igor-fortaleza",
 		linkedin_describe: "linkedin.com/in/igorfortaleza",
 		linkedin: "https://linkedin.com/in/igorfortaleza",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+	},
+
+	files: {
+		cv: "./cv2024.pdf",
 	},
 
 	homepage: {
@@ -23,7 +24,8 @@ const INFO_pt = {
 	},
 
 	about: {
-		title: "Sou o Igor Fortaleza de São Paulo - Brasil. O Desenvolvedor do agora (o futuro é agora)",
+		title: "Sou Igor Fortaleza de São Paulo - Brasil. O Desenvolvedor do agora",
+		subtitle: "(o futuro é agora)",
 		description:
 			"Durante minha trajetória como desenvolvedor, me empenhei em desenvolver projetos inovadores e eficazes. Meu portfólio é composto por uma variedade de trabalhos, incluindo iniciativas pessoais e profissionais. Sou um firme defensor do uso da tecnologia para solucionar desafios complexos e enriquecer vidas. Para além do desenvolvimento, estou comprometido em compartilhar conhecimento, seja através da elaboração de tutoriais detalhados, da criação de documentação clara ou da participação em discussões sobre tópicos importantes. Espero, com isso, empoderar outros desenvolvedores e contribuir para o crescimento da comunidade de tecnologia. Acredito que ao compartilhar o que sei, não apenas ajudo os outros, mas também enriqueço minha jornada de aprendizado. Cada troca de ideias é uma chance para explorar novas visões e aprimorar habilidades, e é esse ciclo de aprendizado contínuo e colaboração mútua que impulsiona a inovação e o progresso no campo do desenvolvimento de software.",
 	},
@@ -110,17 +112,17 @@ const INFO_en = {
 		title: "Igor Fortaleza",
 		name: "Igor A. Fortaleza",
 		email: "igorf135@gmail.com",
-		logo: "../MyFolio/logo.png",
+		logo: "./logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
+		github: "https://github.com/igor-fortaleza",
 		linkedin_describe: "linkedin.com/in/igorfortaleza",
 		linkedin: "https://linkedin.com/in/igorfortaleza",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+	},
+
+	files: {
+		cv: "./cv2024.pdf",
 	},
 
 	homepage: {
@@ -130,7 +132,8 @@ const INFO_en = {
 	},
 
 	about: {
-		title: "I'm Igor Fortaleza from São Paulo - Brazil. The Developer of now (the future is now)",
+		title: "I'm Igor Fortaleza from São Paulo - Brazil. The Developer of now",
+		subtitle: "(the future is now)",
 		description:
 			"Throughout my career as a developer, I have dedicated myself to creating innovative and efficient technological solutions. My portfolio includes a variety of projects, both personal and business. I firmly believe in the power of technology as a tool to solve complex problems and improve people's lives. In addition to developing, I am strongly committed to sharing knowledge. This includes writing detailed tutorials, creating clear and accessible documentation, and participating in in-depth conversations on relevant topics. By sharing my experience, I hope to empower other developers and contribute to the growth of the technological community. I am convinced that by sharing knowledge, I not only help others but also enrich my own learning journey. Each interaction is an opportunity to discover new perspectives and improve skills. This continuous learning and collaboration cycle is what truly drives innovation and advancement in software development.",
 	},

@@ -19,7 +19,7 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
-	padding: 30px;
+	padding: 50px;
 }
 
 .college-right-side:hover {
@@ -38,6 +38,13 @@
 	color: var(--primary-color);
 	font-size: 20px;
 	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.college-subtitle {
+	color: var(--primary-color);
+	font-size: 11px;
+	font-weight: 700;
 	letter-spacing: 0.5px;
 }
 
@@ -66,5 +73,16 @@
 		flex-basis: 90%;
 		min-width: 85%;
 		max-width: 85%;
+	}
+}
+
+@media (max-width: 600px) {
+	.college-right-side {
+		flex-basis: 80%;
+		/* min-width: 700px; */
+		mix-blend-mode: normal;
+		border-radius: 20px;
+		opacity: 0.8;
+		padding: 30px;
 	}
 }
