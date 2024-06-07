@@ -51,6 +51,10 @@
 		height: 85px;
 	}
 
+	.footer-nav-link-item {
+		margin-right: 10px;
+	}
+
 	.footer-links {
 		display: flex;
 		width: 100%;
