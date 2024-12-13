@@ -2,18 +2,18 @@
 
 .works-body {
 	flex: 1;
+	/* display: flex; */
+	justify-content: space-between;
 	width: 100%;
-	align-items: center;
 }
 
 .work {
-	display: flex;
 	font-family: var(--secondary-font);
-	margin-bottom: 50px;
+	/* display: flex; */
+	padding-bottom: 40px;
 	letter-spacing: 0.5px;
 	word-spacing: 2px;
-
-	justify-content: center; /* Centraliza horizontalmente */
+	text-align: center;
 }
 
 .work-image {
@@ -25,28 +25,36 @@
 	/* box-shadow: 1px 5px 10px var(--shadow); */
 }
 
+.work-describe {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
 .work-title {
 	font-size: 15px;
 	font-weight: bold;
 	/* padding-left: 20px; */
-	margin-left: 15px;
-	margin-top: 3px;
+	margin-top: 5px;
 	color: var(--secondary-color);
 }
 
 .work-subtitle {
-	display: flex;
+	/* position: absolute; */
 	font-weight: lighter;
 	font-size: 12px;
 	color: var(--tertiary-color);
 	word-spacing: normal;
-	margin-left: 15px;
 	/* 
 	padding-left: 60px; */
 }
 
 .work-duration {
+	/* position: absolute; */
+	/* width: 350px; */
 	font-size: 10px;
-	margin-left: 15px;
+	/* padding-top: 20px; */
+	/* text-align: right; */
 	color: var(--tertiary-color);
 }
